@@ -2,6 +2,7 @@
 Custom Link product relation for magento 2 supported by GraphQl
 
 You can retrieve this custom type products data same as related products, up-sell products and cross-sell products data like below:
+
 Just add `custom_link_products` in GraphQl Request.
 
 ```
