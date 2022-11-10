@@ -22,10 +22,10 @@ Just add `custom_link_products` in GraphQl Request.
         uid
         name
       }
-      custom_link_products {
+      `custom_link_products {
         uid
         name
-      }
+      }`
     }
   }
 }
