@@ -1,0 +1,21 @@
+{
+    "name": "magelearn/link-product",
+    "description": "Custom Link product relation for magento 2 supported by GraphQl",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "vijay rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "require": {},
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\LinkProduct\\": ""
+        }
+    }
+}
