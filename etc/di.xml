@@ -21,8 +21,15 @@
             </argument>
         </arguments>
     </type>
-    <type name="\Magento\CatalogImportExport\Model\Import\Product">
-        <plugin name="addLinkType"
-                type="\Magelearn\LinkProduct\Plugin\CatalogImportExport\Model\Import\Product"/>
+    <!-- used for import custom link products via import CSV feature -->
+    <type name="Magento\CatalogImportExport\Model\Import\Product\LinkProcessor">
+        <arguments>
+            <argument name="linkNameToId" xsi:type="array">
+                <item name="_customlink_" xsi:type="const">Magelearn\LinkProduct\Model\Product\Link::LINK_TYPE_CUSTOMLINK</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType">
+        <plugin sortOrder="1" name="magelearnLinkProductAbstractType" type="Magelearn\LinkProduct\Plugin\Model\Import\Product\Type\AbstractTypePlugin"/>
     </type>
 </config>
