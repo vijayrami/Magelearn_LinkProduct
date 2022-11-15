@@ -1,5 +1,7 @@
 # Magelearn_LinkProduct
-Custom Link product relation for magento 2 supported by GraphQl
+Custom Link product relation for magento 2 supported by GraphQl.
+
+It Also supports to import `custom link products` via Magento's Import CSV.
 
 [![image-1.png](https://i.postimg.cc/c13V3WmH/image-1.png)](https://postimg.cc/fkw2461n)
 
