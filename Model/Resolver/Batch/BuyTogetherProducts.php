@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Magelearn\LinkProductGraphql\Model\Resolver\Batch;
+namespace Magelearn\LinkProduct\Model\Resolver\Batch;
 
 use Magelearn\LinkProduct\Model\Product\Link;
 use Magento\Framework\GraphQl\Config\Element\Field;
