@@ -85,20 +85,4 @@ class CustomLinkProduct extends DataObject
         $collection->setProduct($currentProduct);
         return $collection;
     }
-
-    /**
-     * Retrieve collection custom link
-     *
-     * @param Product $currentProduct
-     * @return Collection
-     */
-    public function getCustomLinkCollection(Product $currentProduct)
-    {
-        $collection = $this->getLinkInstance()->useCustomLinks()->getLinkCollection();
-        $collection->setProduct($currentProduct);
-        $collection->addLinkTypeIdFilter();
-        $collection->addProductIdFilter();
-        $collection->joinAttributes();
-        return $collection;
-    }
 }
