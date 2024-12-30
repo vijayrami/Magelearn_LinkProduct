@@ -3,13 +3,13 @@ Custom Link product relation for magento 2 supported by GraphQl.
 
 It Also supports to import `custom link products` via Magento's Import CSV.
 
-[![image-1.png](https://i.postimg.cc/c13V3WmH/image-1.png)](https://postimg.cc/fkw2461n)
+![1_image](/assests/image-1.png)
 
 To Import `custom link products` via Magento's Import CSV,
 
 Add New column `customlink_skus` and add linked Products SKU seprated by comma.
 
-[![Screenshot-from-2022-11-15-08-02-26.png](https://i.postimg.cc/WbwTzx0k/Screenshot-from-2022-11-15-08-02-26.png)](https://postimg.cc/jL2Gkggx)
+![2_image](/assests/image-2.png)
 
 This extension includes all of the backend logic of relating the custom product type at backend. You will need to design the frontend component or use it with GraphQl for PWA to get these products information.
 
